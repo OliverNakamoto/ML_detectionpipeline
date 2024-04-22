@@ -6,11 +6,11 @@ This repository contains the machine learning detection pipeline designed to pro
 
 ## Experiment Overview
 
-The experiment involved collecting LiDAR data during the race car's trial runs, pre-processing this data, and then applying a machine learning model to detect cones. The data is first filtered to remove noise, and then a neural network is used to segment the cone positions from the LiDAR point cloud.
+The investigation examined machine learning based techniques to provide cone predictions from 2D projected LiDAR data. The data is first filtered to remove noise, and then a neural network is used to segment the cone positions from the LiDAR point cloud.
 
 ## Repository Contents
 
-- `preprocessing.ipynb`: Jupyter notebook containing all the pre-processing steps applied to the LiDAR data.
+- `preprocessing.ipynb`: Jupyter notebook containing all processing and model testing/creation.
 - `filtering.py`: Python script used for the initial filtration of LiDAR data to remove ground and other non-cone related noise.
 - `pythonmakesmorens.py`: Python script used for collecting and aggregating LiDAR data from multiple trial runs.
 - `trial_3.1/`: Directory containing the LiDAR data used in this experiment.
