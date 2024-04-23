@@ -14,6 +14,7 @@ The investigation examined machine learning based techniques to provide cone pre
 - `filtering.py`: Python script used for the initial filtration of LiDAR data to remove ground and other non-cone related noise.
 - `pythonmakesmorens.py`: Python script used for collecting and aggregating LiDAR data from multiple trial runs.
 - `trial_3.1/`: Directory containing the LiDAR data used in this experiment.
+- `Paper1.pdf`: This is the paper written based off of the results 
 
 ## Setup and Usage
 
